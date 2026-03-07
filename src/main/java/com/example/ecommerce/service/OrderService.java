@@ -3,6 +3,7 @@ package com.example.ecommerce.service;
 import com.example.ecommerce.dto.CreateOrderRequest;
 import com.example.ecommerce.dto.CreateOrderResponse;
 import com.example.ecommerce.entity.*;
+import com.example.ecommerce.entity.enums.OrderStatus;
 import com.example.ecommerce.repository.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
